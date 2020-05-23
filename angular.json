@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "basicConcepts"
+    }
+  },
+  "defaultProject": "basicConcepts",
+  "cli": {
+    "analytics": false
+  }
 }
