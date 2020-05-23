@@ -1,8 +1,12 @@
-<h1>
-  Parent Component!
-</h1>
-<app-child-component [inputFlag] = 'loginStatus'>
-
-</app-child-component>
-
-<router-outlet></router-outlet>
+<div style="margin-left: 20px; margin-top: 20px;">
+  <h1>
+    Parent Component!
+  </h1>
+  <app-child-component 
+        [inputFlag] = 'loginStatus'
+        [buttonName] = 'nameOfTheButton'>
+  
+  </app-child-component>
+  
+  <router-outlet></router-outlet>
+</div>

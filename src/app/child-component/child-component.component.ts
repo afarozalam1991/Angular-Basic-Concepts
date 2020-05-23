@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ChildComponentComponent implements OnInit {
 
   @Input() inputFlag: boolean;
+  @Input() buttonName:string;
 
   constructor() { }
 
